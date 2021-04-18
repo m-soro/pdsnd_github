@@ -13,5 +13,10 @@ Describe what your project is about and what it does
 Include the files used
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+ As per my bikeshare project documentation, I avoided looking at other student's bikeshare project because I wanted to write all of the scripts myself.
 
+ Here are some references that helped me:
+
+ 1. Pandas official documentations
+ 2. Sites like [realpython](https://realpython.com/), [kite](https://www.kite.com/), and [StackOverflow](https://stackoverflow.com/)
+ 3. Udacity's python lessons
