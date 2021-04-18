@@ -95,6 +95,9 @@ def restart_view_data(query,df):
     else:
         print("Proceeding to end the program")
 
+# End Input validation functions
+
+
 # Filter and load DataFrame
 def filter_data():
     """Filters and loads the data based on user inputs"""
