@@ -97,6 +97,7 @@ def restart_view_data(query,df):
 
 # Filter and load DataFrame
 def filter_data():
+    """Filters and loads the data based on user inputs"""
     try:
         city = city_checker('\n\nSelect a city : Chicago, New York, Washington  ')
         df = pd.read_csv(city)
