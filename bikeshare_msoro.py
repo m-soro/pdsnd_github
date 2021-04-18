@@ -307,7 +307,7 @@ def project():
                     ' and day --> '+ day.upper())
             print_p(row_data_message)
 
-        # Start function calls
+        # Start function calls, Washington has no gender. Added if statement to handle this.
         time_filter(df,mon_ans, mon, day_ans, day)
         print_p('I can show you *up to Top 5* results for *some* of the next '
             'following statistics\n\n')
@@ -324,4 +324,4 @@ def project():
             restart_program('\n\nWould you like to RE-start this program? -->')
     except Exception as e:
             print_p(e)
-project()         
+project()
