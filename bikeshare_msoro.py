@@ -6,6 +6,7 @@ def print_p(statement):
     time.sleep(.100)
 
 # Some lambda helper functions
+# get_value will return np.ndarray and get_index will return pandas series index
 get_value = lambda x,y,n :x.groupby([y])[y].count().sort_values(ascending=False).head(n).values
 get_index = lambda x,y,n :x.groupby([y])[y].count().sort_values(ascending=False).head(n).index
 str_cleaner = lambda x : x[8:x.find("']")]
@@ -324,4 +325,4 @@ def project():
             restart_program('\n\nWould you like to RE-start this program? -->')
     except Exception as e:
             print_p(e)
-project()         
+project()
